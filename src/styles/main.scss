@@ -7,25 +7,24 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Fonts */
-// Extra small
-$font-xs: 12px;
-// Small
-$font-sm: 14px;
-// Medium
-$font-md: 16px;
-// Large
-$font-lg: 20px;
-// Extra large
-$font-xl: 26px;
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+ul {
+  list-style: none;
+}
 
-/* Colors */
-$main-black: #000;
-$main-white: #fff;
-$main-grey: #D9D9D9;
-$main-green: #4AAA4E;
+img {
+  max-width: 100%;
+  height: auto;
+}

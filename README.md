@@ -41,4 +41,4 @@ This command will launch the website locally, and you can access it by opening y
 
 The website is deployed and hosted on Netlify, a popular platform for hosting static websites and web applications. You can access the live version of the website at the following test URL:
 
-[Test URL on Netlify](https://your-test-url.netlify.app)
+[URL on Netlify](https://ignat.netlify.app/)

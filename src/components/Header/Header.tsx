@@ -1,5 +1,5 @@
 import "./Header.scss";
-import Container from "../Container/Container";
+import Container from "../UI/Container/Container";
 import logo from "../../assets/images/logo.svg";
 import favorites from "../../assets/icons/favorites.svg";
 import cart from "../../assets/icons/cart.svg";

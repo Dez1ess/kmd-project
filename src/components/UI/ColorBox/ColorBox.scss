@@ -1,0 +1,26 @@
+@import "../../../styles/variables";
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #343434;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px 0px #CCC;
+
+  &.selected-color {
+    position: relative;
+    border-color: #343434;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -90%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 24px;
+      height: 24px;
+      background: url("../../assets/icons/arrow-pick-up.png");
+    }
+  }
+}

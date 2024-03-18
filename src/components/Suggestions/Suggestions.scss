@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.suggestions {
+  margin-top: 80px;
+
+  h3 {
+    text-transform: uppercase;
+    font-size: $font-xl;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .suggestion-list {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: auto;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .show-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: $font-md;
+    font-weight: 400;
+    color: #626262;
+    text-transform: uppercase;
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    
+    img {
+      transition: transform 0.3s ease;
+    }
+
+    &:hover {
+      opacity: 70%;
+    }
+
+    &:hover img {
+      transform: translateY(-5px);
+    }
+  }
+}

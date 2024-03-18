@@ -1,0 +1,12 @@
+@import "../../../styles/variables";
+
+.size-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: $main-grey;
+
+  &.selected-size {
+    border: 1px solid #343434;
+  }
+}

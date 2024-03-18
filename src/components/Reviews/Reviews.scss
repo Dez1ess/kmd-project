@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 80px;
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+  }
+
+  .reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .overall {
+      text-transform: uppercase;
+      font-size: $font-xl;
+      font-weight: 500;
+      line-height: 40px;
+      color: #343434;
+
+      span {
+        font-size: $font-md;
+        font-weight: 300;
+        color: #959595;
+      }
+    }
+
+    .pagination {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      color: #343434;
+      font-size: $font-md;
+      font-weight: 400;
+
+      .pagination-arrows {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        & > * {
+          cursor: pointer;
+        }
+
+        & > :first-child {
+          transform: scaleX(-1);
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,103 @@
+@import "../../../styles/variables";
+
+.product-info {
+
+  .product-name {
+    text-transform: uppercase;
+
+    h3 {
+      font-weight: 500;
+      font-size: $font-xl;
+      line-height: 40px;
+      color: #343434;
+    }
+
+    p {
+      font-weight: 400;
+      color: #626262;
+    }
+  }
+
+  .price {
+    font-weight: 500;
+    font-size: $font-xl;
+    color: $main-green;
+    line-height: 40px;
+    padding: 10px 0;
+
+    span {
+      font-size: 80%;
+    }
+  }
+
+  .product-size, .product-color {
+    padding-bottom: 20px;
+  }
+
+  .sizes, .colors {
+    padding-top: 10px;
+  }
+
+  .product-size {
+    text-transform: uppercase;
+
+    .sizes {
+      display: flex;
+      gap: 10px;
+
+      & > * {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .product-color {
+    text-transform: uppercase;
+    padding-bottom: 34px;
+
+    .colors {
+      display: flex;
+      gap: 10px;
+
+      & > * {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .product-description {
+    padding-bottom: 43px;
+    border-bottom: 1px solid #CCCCCC;
+
+    h4 {
+      font-size: $font-lg;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .product-interact {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 15px;
+
+    .product-buttons {
+      display: flex;
+      gap: 30px;
+
+      & > * {
+        cursor: pointer;
+      }
+    }
+
+    .product-interact-icons {
+      display: flex;
+      gap: 20px;
+
+      & > * {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ function Button({
 }) {
   return (
     <button
-      style={{ color: color, backgroundColor: bgColor}}
+      style={{ color: color, backgroundColor: bgColor }}
       className="interact-btn"
     >
       {text}

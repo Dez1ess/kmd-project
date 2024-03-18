@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 15px;
   margin-top: 80px;
-  
+
   .swiper {
     width: 100%;
     height: 100%;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     .overall {
       text-transform: uppercase;
       font-size: $font-xl;
@@ -54,5 +54,4 @@
       }
     }
   }
-
 }

@@ -11,7 +11,7 @@ function Hero() {
         <ProductInfo />
       </section>
     </Container>
-  )
+  );
 }
 
 export default Hero;

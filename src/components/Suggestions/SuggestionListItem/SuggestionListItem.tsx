@@ -1,7 +1,7 @@
 import "./SuggestionListItem.scss";
 import favoritesSmall from "../../../assets/icons/favorites-sm.svg";
 
-function SuggestionListItem({img}: {img: string}) {
+function SuggestionListItem({ img }: { img: string }) {
   return (
     <div className="suggestion-list-item">
       <div className="add-to-favorites">

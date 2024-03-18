@@ -13,7 +13,8 @@
     gap: 230px;
     padding: 45px 0 50px;
 
-    .contact-us, .contact-us-main {
+    .contact-us,
+    .contact-us-main {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -30,9 +31,9 @@
         justify-content: center;
         gap: 20px;
         opacity: 80%;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         cursor: pointer;
-        
+
         & > *:hover {
           opacity: 60%;
         }
@@ -62,7 +63,7 @@
         gap: 30px;
 
         & > * {
-          transition: all .3 ease;
+          transition: all 0.3 ease;
           opacity: 100%;
           cursor: pointer;
         }

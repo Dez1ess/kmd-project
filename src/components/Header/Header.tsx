@@ -6,7 +6,6 @@ import cart from "../../assets/icons/cart.svg";
 import search from "../../assets/icons/search.svg";
 
 function Header() {
-  
   return (
     <>
       <div className="header-container">

@@ -31,6 +31,9 @@ This website is powered by Vite, a modern build tool that provides an optimized 
 1. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Run the following command to install the project dependencies:
+```
+npm install
+```
 4. Once the installation is complete, you can start the development server by running:
 ```
 npm run dev
